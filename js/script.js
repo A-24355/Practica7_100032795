@@ -1,10 +1,10 @@
 document.getElementById('btnDatos').addEventListener('click', function () {
-    const nombre = 'Tu Nombre Aquí';
-    const matricula = '221234567';
-    const carrera = 'LSC';
+    const nombre = 'Karol Alberto Galdámez Gómez';
+    const matricula = '100032795';
+    const carrera = 'Licenciatura en Sistemas Computacionales';
     const semestre = 5;
 
-    const mensaje = `Nombre: ${nombre} | Matrícula: ${matricula} | Carrera: ${carrera} | Semestre: ${semestre}`;
+    const mensaje = `NOMBRE: ${nombre} | MATRICULA: ${matricula} | CARRERA: ${carrera} | SEMESTRE: ${semestre}`;
 
     document.getElementById('parDatos').textContent = mensaje;
     console.log('Datos mostrados correctamente:', { nombre, matricula, carrera, semestre });
